@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace DatabaseTest
 {
-    class Program
+    class Coach
     {
         private static string connectionString =
             "Server=ealdb1.eal.local; Database=ejl87_db; User Id=ejl87_usr; Password=Baz1nga87;";
@@ -16,7 +16,7 @@ namespace DatabaseTest
                );
         static void Main(string[] args)
         {
-            Program program = new Program();
+            Coach program = new Coach();
             program.Menu();
 
         }

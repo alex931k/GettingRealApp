@@ -1,0 +1,10 @@
+DELETE CoachLogin;
+DROP TABLE CoachLogin;
+
+CREATE TABLE CoachLogin (
+CoachID int NOT NULL IDENTITY(1,1),
+CoachUserName NVARCHAR(25) NOT NULL,
+CoachPassword NVARCHAR(25) NOT NULL,
+
+CONSTRAINT CoachLogin_PK PRIMARY KEY(CoachID)
+);
